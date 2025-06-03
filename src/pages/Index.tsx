@@ -78,7 +78,7 @@ const Index = () => {
     });
   }, { scope: container });
 
-  const isMobile = window.innerWidth <= 768;
+  const isMobile = window.innerWidth <= 991;
 
    useGSAP(() => {
   if (!isMobile) { // Only run if not mobile
@@ -158,7 +158,7 @@ useGSAP(() => {
               </div>
             </section>
 
-            <section className='servies_wrapper pt120 pb120' id='service'>
+            <section className='servies_wrapper pt120 pb120 pt80-md pb80-md' id='service'>
               <Container>
                   <Row>
                     <Col lg='4'>
@@ -167,15 +167,15 @@ useGSAP(() => {
                       </div>
                     </Col>
                     <Col lg='8'>
-                      <div className="services_grid_Wrapper pl50">
+                      <div className="services_grid_Wrapper pl50 pl0-md">
                         <div className="service_box_wrap service_one">
                           <Row className='align-items-center'>
-                            <Col lg="5">
+                            <Col md="5">
                               <div className="service_img">
                                 <img src={Service1} alt="" />
                               </div>
                             </Col>
-                            <Col lg="7">
+                            <Col md="7">
                               <div className="service_content">
                                 <h5>Search</h5>
                                 <ul>
@@ -191,12 +191,12 @@ useGSAP(() => {
                         </div>
                         <div className="service_box_wrap service_two">
                           <Row className='align-items-center'>
-                            <Col lg="5">
+                            <Col md="5">
                               <div className="service_img">
                                 <img src={Service2} alt="" />
                               </div>
                             </Col>
-                            <Col lg="7">
+                            <Col md="7">
                               <div className="service_content">
                                 <h5>Social</h5>
                                 <ul>
@@ -212,12 +212,12 @@ useGSAP(() => {
                         </div>
                         <div className="service_box_wrap service_three">
                           <Row className='align-items-center'>
-                            <Col lg="5">
+                            <Col md="5">
                               <div className="service_img">
                                 <img src={Service3} alt="" />
                               </div>
                             </Col>
-                            <Col lg="7">
+                            <Col md="7">
                               <div className="service_content">
                                 <h5>Methods & Techniques</h5>
                                 <ul>
@@ -238,12 +238,12 @@ useGSAP(() => {
                         </div>
                         <div className="service_box_wrap service_four">
                           <Row className='align-items-center'>
-                            <Col lg="5">
+                            <Col md="5">
                               <div className="service_img">
                                 <img src={Service4} alt="" />
                               </div>
                             </Col>
-                            <Col lg="7">
+                            <Col md="7">
                               <div className="service_content">
                                 <h5>Analytics & Strategy</h5>
                                 <ul>
@@ -262,12 +262,12 @@ useGSAP(() => {
                         </div>
                         <div className="service_box_wrap service_five">
                           <Row className='align-items-center'>
-                            <Col lg="5">
+                            <Col md="5">
                               <div className="service_img">
                                 <img src={Service5} alt="" />
                               </div>
                             </Col>
-                            <Col lg="7">
+                            <Col md="7">
                               <div className="service_content">
                                 <h5>Content Strategy</h5>
                                 <ul>
@@ -286,12 +286,12 @@ useGSAP(() => {
                         </div>
                         <div className="service_box_wrap service_six">
                           <Row className='align-items-center'>
-                            <Col lg="5">
+                            <Col md="5">
                               <div className="service_img">
                                 <img src={Service6} alt="" />
                               </div>
                             </Col>
-                            <Col lg="7">
+                            <Col md="7">
                               <div className="service_content">
                                 <h5>Web Development & UX</h5>
                                 <ul>
@@ -310,12 +310,12 @@ useGSAP(() => {
                         </div>
                         <div className="service_box_wrap service_seven">
                           <Row className='align-items-center'>
-                            <Col lg="5">
+                            <Col md="5">
                               <div className="service_img">
                                 <img src={Service7} alt="" />
                               </div>
                             </Col>
-                            <Col lg="7">
+                            <Col md="7">
                               <div className="service_content">
                                 <h5>Reputation Building</h5>
                                 <ul>
@@ -339,7 +339,7 @@ useGSAP(() => {
               </Container>
             </section>
 
-            <section className="about_wrapper pt150" id='about' style={{ backgroundImage: `url(${AboutBg})` }}>
+            <section className="about_wrapper pt150 pt100-md" id='about' style={{ backgroundImage: `url(${AboutBg})` }}>
               <Container>
                 <div className="round_wrapper">
                   <div className="round_img_wrapper">
@@ -359,7 +359,7 @@ useGSAP(() => {
               </div>
             </section>
 
-            <section className='indystry_wrapper pt100 pb100' id='industry'>
+            <section className='indystry_wrapper pt100 pb100  pt80-md pb80-md' id='industry'>
               <Container>
                 <div className="title_two_wrapper">
                   <h2><span>Industry-Focused</span> Digital Solutions</h2>
@@ -383,6 +383,24 @@ useGSAP(() => {
                       className="industry_slider"
                       allowTouchMove={false}
                       resistance={false}
+                      breakpoints={{
+                      0: {
+                        slidesPerView: 2.5,
+                        spaceBetween: 20,
+                      },
+                      481: {
+                        slidesPerView: 3,
+                        spaceBetween: 20,
+                      },
+                      768: {
+                        slidesPerView: 4,
+                        spaceBetween: 40,
+                      },
+                      991: {
+                        slidesPerView: 5,
+                        spaceBetween: 40,
+                      },
+                    }}
                     >
                       <SwiperSlide>
                         <div className="client_logo_wrap">
@@ -453,6 +471,24 @@ useGSAP(() => {
                       allowTouchMove={false}
                       resistance={false}
                       dir="rtl"
+                      breakpoints={{
+                      0: {
+                        slidesPerView: 2.5,
+                        spaceBetween: 20,
+                      },
+                      481: {
+                        slidesPerView: 3,
+                        spaceBetween: 20,
+                      },
+                      768: {
+                        slidesPerView: 4,
+                        spaceBetween: 40,
+                      },
+                      991: {
+                        slidesPerView: 5,
+                        spaceBetween: 40,
+                      },
+                    }}
                     >
                       <SwiperSlide>
                         <div className="client_logo_wrap">
@@ -522,6 +558,24 @@ useGSAP(() => {
                       className="industry_slider"
                       allowTouchMove={false}
                       resistance={false}
+                      breakpoints={{
+                      0: {
+                        slidesPerView: 2.5,
+                        spaceBetween: 20,
+                      },
+                      481: {
+                        slidesPerView: 3,
+                        spaceBetween: 20,
+                      },
+                      768: {
+                        slidesPerView: 4,
+                        spaceBetween: 40,
+                      },
+                      991: {
+                        slidesPerView: 5,
+                        spaceBetween: 40,
+                      },
+                    }}
                     >
                       <SwiperSlide>
                         <div className="client_logo_wrap">
@@ -578,11 +632,11 @@ useGSAP(() => {
               </div>
             </section>
 
-            <section className="growth_wrapper pt100 pb100">
+            <section className="growth_wrapper pt100 pb100 pt80-md pb80-md">
               <Container>
                 <Row>
                   <Col lg="6">
-                      <div className="growth_left_wrap pr80">
+                      <div className="growth_left_wrap pr80 pr0-md">
                         <h3>Your Digital Growth, Covered From strategy to results, we handle it all</h3>
                       </div>
                   </Col>
@@ -596,7 +650,7 @@ useGSAP(() => {
               </Container>
             </section>
 
-            <section className="testimonial_wrapper pt100 pb100" id='testimonial'>
+            <section className="testimonial_wrapper pt100 pb100 pt80-md pb80-md" id='testimonial'>
               <Container>
                 <div className="title mb50">
                   <h2 className='h3 fw_700 text-center mb0'>Trusted by people</h2>

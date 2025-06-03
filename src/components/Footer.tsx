@@ -11,19 +11,19 @@ const Footer = () => {
     <footer id="contact" className="footer">
 
       <Container>
-        <Row>
-          <Col lg="3">
+        <Row className='g-4'>
+          <Col lg="3" md="6">
             <div className="footer_logo">
               <img src={Logo} alt="" />
             </div>
           </Col>
-          <Col lg="3">
+          <Col lg="3" md="6">
             <div className="contact_wrap">
               <h5>D-Web</h5>
               <p>Graaf florisstraat 22A, Canada.</p>
             </div>
           </Col>
-          <Col lg="3">
+          <Col lg="3" md="6">
             <div className="contact_wrap">
               <h5>Contact Us</h5>
               <p>Interested in working with us?</p>
@@ -33,7 +33,7 @@ const Footer = () => {
               </ul>
             </div>
           </Col>
-          <Col lg="3">
+          <Col lg="3" md="6">
              <div className="contact_wrap">
               <h5>Quick Links</h5>
               <ul>

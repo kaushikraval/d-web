@@ -1,0 +1,295 @@
+@media (max-width: 1700px){
+    .container{
+        max-width: 1400px;
+    }
+    .service_box_wrap .service_content ul li {
+        line-height: 30px;
+        font-size: 15px;
+    }
+    h2, .h2 {
+        font-size: 46px;
+        line-height: 55px;
+    }
+    .banner_wrapper .banner_left_wrapper .banner_content {
+    max-width: 730px;
+    padding-right: 50px;
+}
+.banner_wrapper .banner_left_wrapper .banner_content h1 {
+    font-size: 38px;
+    line-height: 48px;
+}
+h3, .h3 {
+    font-size: 40px;
+    line-height: 48px;
+}
+p {
+    font-size: 18px;
+    line-height: 28px;
+}
+.about_description p {
+    font-size: 20px;
+    line-height: 28px;
+}
+}
+
+@media (max-width: 1501px){
+    .container{
+        max-width: 1280px;
+    }
+    h5, .h5 {
+    font-size: 26px;
+    line-height: 32px;
+}
+.service_box_wrap .service_content h5{
+    margin: 0 0 10px;
+}
+.service_box_wrap {
+    padding: 30px !important;
+}
+.service_box_wrap .service_img {
+    height: 100%;
+    width: 100%;
+}
+.service_box_wrap > .row{
+    align-items: inherit !important;
+}
+.service_box_wrap .service_content {
+    display: flex;
+    align-items: self-start;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+    .banner_wrapper .banner_left_wrapper .banner_content {
+        max-width: 660px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 1367px){
+    .container{
+        max-width: 1170px;
+    }
+    .banner_wrapper .banner_left_wrapper .banner_content {
+        max-width: 600px;
+        padding-right: 50px;
+    }
+    .banner_wrapper .marquee-container .marquee .slogan {
+        font-size: 100px !important;
+    }
+    h2, .h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    h3, .h3 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    footer .contact_wrap h5 {
+    font-size: 24px;
+}
+footer .contact_wrap ul li a {
+    font-size: 15px;
+    line-height: 22px;
+}
+footer .copyright_wrapper p {
+    font-size: 16px;
+}
+}
+
+@media (max-width: 1201px){
+    .container{
+        max-width: 100%;
+    }
+    .banner_wrapper {
+    height: auto;
+    flex-direction: column-reverse;
+}
+.banner_wrapper:before{
+    height: 100%;
+    width: 100%;
+}
+.banner_wrapper .banner_left_wrapper,
+.banner_wrapper .banner_right_wrapper {
+    width: 100%;
+}
+
+.banner_wrapper .banner_right_wrapper{
+    height: 100vh;
+}
+.banner_wrapper .banner_left_wrapper {
+    padding-bottom: 0;
+}
+.banner_wrapper .banner_left_wrapper .banner_content {
+        max-width: 100%;
+        padding-right: 0;
+        padding: 40px;
+}
+.header__container {
+    justify-content: space-between;
+}
+.insustry_logo_sider .swiper .swiper-wrapper .swiper-slide .client_logo_wrap {
+    padding: 20px 40px;
+}
+}
+@media (max-width: 991px){
+    .insustry_logo_sider .swiper .swiper-wrapper .swiper-slide .client_logo_wrap {
+        padding: 15px 20px;
+    }
+    .testimonial_slider_wrapper {
+    max-width: 530px;
+    margin: 0 auto;
+}
+.header__nav {
+    padding-left: 0;
+}
+.header__nav {
+        top: 123px;
+        background-color: #002935;
+        padding: 30px;
+}
+.header {
+    padding: 20px;
+}
+.header.scrolled .header__nav {
+        top: 115px;
+    }
+    .header__cta {
+        margin: 10px 0 0;
+    }
+    .header__menu-link {
+        display: inline-block;
+        padding: 15px 0px;
+    }
+    .header__menu {
+        width: auto;
+    }
+}
+@media (max-width: 767px){
+    .banner_wrapper .banner_right_wrapper {
+        height: 660px;
+    }
+    .banner_wrapper .marquee-container {
+        top: 140px;
+    }
+    .banner_wrapper .banner_right_wrapper .slogan_wrapper h6 {
+    font-size: 18px;
+    line-height: 26px;
+}
+.banner_wrapper .banner_right_wrapper .slogan_wrapper {
+    padding: 30px 20px;
+}
+.service_box_wrap .service_content {
+    padding-left: 0;
+    padding-top: 30px;
+}
+.about_title p {
+    font-size: 22px;
+    line-height: 30px;
+}
+.about_description p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    h2, .h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .banner_wrapper .banner_left_wrapper .banner_content h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .about_title {
+    padding: 0 0 80px;
+}
+h6, .h6 {
+    font-size: 20px;
+    line-height: 26px;
+}
+}
+
+@media (max-width:575px){
+   .testimonial_slider_wrapper {
+        max-width: 100%;
+        border: 0;
+        padding: 0 0 70px;
+    }
+    .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: calc(50% - 45px);
+    right: auto;
+    top: inherit;
+    bottom: 0;
+    width: 90px;
+    transform: translateX(-50%);
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 0;
+    left: calc(50% + 45px);
+    top: inherit;
+    bottom: 0;
+    width: 90px;
+    transform: translateX(-50%);
+    border-left: 1px solid #ddd;
+}
+.insustry_logo_sider .swiper .swiper-wrapper .swiper-slide .client_logo_wrap img {
+    height: 40px;
+}
+p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    h3, .h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .about_wrapper .round_wrapper .round_img_wrapper {
+    width: 140px;
+    }
+    .about_wrapper .round_wrapper .logoIcon {
+    max-width: 50px;
+}
+.banner_wrapper .marquee-container .marquee .slogan {
+        font-size: 40px !important;
+        -webkit-text-stroke-width: 1px;
+        padding: 0 35px !important;
+        -webkit-text-fill-color: #fff;
+    }
+    .banner_wrapper .marquee-container .marquee .slogan:after {
+    right: -12px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px;
+}
+.banner_wrapper .marquee-container {
+        top: 170px;
+    }
+    .banner_wrapper .banner_right_wrapper {
+        height: 540px;
+    }
+    .banner_wrapper .banner_left_wrapper .banner_content {
+        padding: 25px;
+    }
+    .banner_wrapper .banner_left_wrapper .banner_content h1 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .banner_wrapper .banner_left_wrapper .banner_content p {
+    font-size: 15px;
+    line-height: 22px;
+    }
+    .service_box_wrap {
+        padding: 15px !important;
+    }
+    .header.scrolled {
+    padding: 15px 20px;
+    }
+    .header__logo img {
+    height: 55px;
+}
+.header__nav {
+        top: 93px;
+}
+.header.scrolled .header__nav {
+        top: 85px;
+    }
+}
