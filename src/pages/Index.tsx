@@ -158,7 +158,7 @@ useGSAP(() => {
               </div>
             </section>
 
-            <section className='servies_wrapper pt120 pb120 pt80-md pb80-md' id='service'>
+            <section className='servies_wrapper pt120 pb120 pt80-xl pb80-xl pt60-md pb60-md' id='service'>
               <Container>
                   <Row>
                     <Col lg='4'>
@@ -339,7 +339,7 @@ useGSAP(() => {
               </Container>
             </section>
 
-            <section className="about_wrapper pt150 pt100-md" id='about' style={{ backgroundImage: `url(${AboutBg})` }}>
+            <section className="about_wrapper pt150 pt80-xl pt60-md" id='about' style={{ backgroundImage: `url(${AboutBg})` }}>
               <Container>
                 <div className="round_wrapper">
                   <div className="round_img_wrapper">
@@ -359,7 +359,7 @@ useGSAP(() => {
               </div>
             </section>
 
-            <section className='indystry_wrapper pt100 pb100  pt80-md pb80-md' id='industry'>
+            <section className='indystry_wrapper pt100 pb100  pt80-xl pb80-xl pt60-md pb60-md' id='industry'>
               <Container>
                 <div className="title_two_wrapper">
                   <h2><span>Industry-Focused</span> Digital Solutions</h2>
@@ -369,8 +369,8 @@ useGSAP(() => {
               <div className="industry_logo_wrapper">
                   <div className="insustry_logo_sider mb25">
                     <Swiper
-                      slidesPerView={5}
-                      spaceBetween={25}
+                      slidesPerView={7}
+                      spaceBetween={20}
                       freeMode={false}
                       loop={true}
                       speed={5000}
@@ -386,19 +386,15 @@ useGSAP(() => {
                       breakpoints={{
                       0: {
                         slidesPerView: 2.5,
-                        spaceBetween: 20,
                       },
                       481: {
                         slidesPerView: 3,
-                        spaceBetween: 20,
                       },
                       768: {
-                        slidesPerView: 4,
-                        spaceBetween: 40,
+                        slidesPerView: 5,
                       },
                       991: {
-                        slidesPerView: 5,
-                        spaceBetween: 40,
+                        slidesPerView: 7,
                       },
                     }}
                     >
@@ -456,8 +452,8 @@ useGSAP(() => {
                   </div>
                   <div className="insustry_logo_sider mb25">
                     <Swiper
-                      slidesPerView={5}
-                      spaceBetween={25}
+                      slidesPerView={7}
+                      spaceBetween={20}
                       freeMode={false}
                       loop={true}
                       speed={5000}
@@ -474,19 +470,15 @@ useGSAP(() => {
                       breakpoints={{
                       0: {
                         slidesPerView: 2.5,
-                        spaceBetween: 20,
                       },
                       481: {
                         slidesPerView: 3,
-                        spaceBetween: 20,
                       },
                       768: {
-                        slidesPerView: 4,
-                        spaceBetween: 40,
+                        slidesPerView: 5,
                       },
                       991: {
-                        slidesPerView: 5,
-                        spaceBetween: 40,
+                        slidesPerView: 7,
                       },
                     }}
                     >
@@ -544,8 +536,8 @@ useGSAP(() => {
                   </div>
                   <div className="insustry_logo_sider ">
                     <Swiper
-                      slidesPerView={5}
-                      spaceBetween={25}
+                      slidesPerView={7}
+                      spaceBetween={20}
                       freeMode={false}
                       loop={true}
                       speed={5000}
@@ -561,19 +553,15 @@ useGSAP(() => {
                       breakpoints={{
                       0: {
                         slidesPerView: 2.5,
-                        spaceBetween: 20,
                       },
                       481: {
                         slidesPerView: 3,
-                        spaceBetween: 20,
                       },
                       768: {
-                        slidesPerView: 4,
-                        spaceBetween: 40,
+                        slidesPerView: 5,
                       },
                       991: {
-                        slidesPerView: 5,
-                        spaceBetween: 40,
+                        slidesPerView: 7,
                       },
                     }}
                     >
@@ -632,7 +620,7 @@ useGSAP(() => {
               </div>
             </section>
 
-            <section className="growth_wrapper pt100 pb100 pt80-md pb80-md">
+            <section className="growth_wrapper pt100 pb100 pt80-xl pb80-xl pt60-md pb60-md">
               <Container>
                 <Row>
                   <Col lg="6">
@@ -650,7 +638,7 @@ useGSAP(() => {
               </Container>
             </section>
 
-            <section className="testimonial_wrapper pt100 pb100 pt80-md pb80-md" id='testimonial'>
+            <section className="testimonial_wrapper pt100 pb100 pt80-xl pb80-xl pt60-md pb60-md" id='testimonial'>
               <Container>
                 <div className="title mb50">
                   <h2 className='h3 fw_700 text-center mb0'>Trusted by people</h2>

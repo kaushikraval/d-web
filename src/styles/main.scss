@@ -33,8 +33,8 @@ body {
 
 p {
   color: $text-gray;
-  font-size: 22px;
-  line-height: 32px;
+    font-size: 18px;
+    line-height: 26px;
   margin: 0 0 20px;
   &:last-child {
     margin: 0;
@@ -670,12 +670,12 @@ ol {
       .swiper-slide{
         width: 300px;
         .client_logo_wrap{
-          padding: 30px 50px;
+          padding: 20px 40px;
           text-align: center;
           border: 1px solid #DDDDDD;
           border-radius: 6px;
           img{
-            height: 70px;
+            height: 50px;
             width: 100%;
             object-fit: contain;
             opacity: 0.8;
